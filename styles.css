@@ -1,0 +1,84 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type='text'] {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #0044cc;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #0044cc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 300px;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
